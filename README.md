@@ -1,4 +1,4 @@
-# Rootless Container Example
+# Rootless Podman Demo
 
 Running a demo Node 22 + Express app with rootless podman.
 
