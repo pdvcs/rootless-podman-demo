@@ -7,7 +7,7 @@ const port = parseInt(sPort)
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/plain')
-  res.send(`[${new Date().toISOString()}] Hello World!`)
+  res.send(`[${new Date().toISOString()}] Hello World!\n`)
 })
 
 app.listen(port, () => {
