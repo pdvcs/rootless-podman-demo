@@ -2,6 +2,9 @@
 
 Running a demo Node 22 + Express app with rootless podman.
 
+First, install and set up rootless podman. Instructions for Ubuntu 22.04
+[here](INSTALL.md).
+
 
 ## Build & Run Locally
 
@@ -12,6 +15,7 @@ npm i
 npm start # or...
 node server.js
 ```
+
 
 ## Build & Run with podman
 
